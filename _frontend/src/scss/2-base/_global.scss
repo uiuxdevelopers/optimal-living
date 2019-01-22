@@ -1,0 +1,12 @@
+body {
+  //delete the background to apply your won style
+  background: $color-white;
+}
+
+*:focus {
+    outline: none;
+}
+
+a:link, a:visited{
+    @include transition--0_15;
+}
